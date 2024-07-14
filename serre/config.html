@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="config.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Configuration</title>
+</head>
+<body>
+	<header>
+		<h1 align="center">
+			<font color="white">Paramètrage de la serre</font>
+		</h1>
+
+		<form action="process.php" method="post">
+        	<label for="temperature">Température (°C): </label>
+        	<input type="number" name="temperature" required>
+
+        	<label for="hygroserre">Hygrométrie dans la serre (%):</label>
+        	<input type="number" name="hygroserre" required>
+
+        	<label for="hyground">Hygrométrie du sol (%): </label>
+        	<input type="number" name="hyground" required>
+
+        	<label for="speed">Vitesse du Vent (km/h): </label>
+        	<input type="number" name="speed" required>
+
+        	<label for="direction">Direction du Vent: </label>
+        	<input type="text" name="direction" required>
+
+        	<h2>Contrôles</h2>
+        	<label for="openings">Ouvrants: </label>
+        	<input type="checkbox" name="openings">
+
+        	<label for="fans">Ventilateurs: </label>
+        	<input type="checkbox" name="fans">
+
+        	<label for="heating">Chauffage: </label>
+        	<input type="checkbox" name="heating">
+
+        <input type="submit" value="Enregistrer les Paramètres">
+    </form>
+
+	</header>
+
+</body>
+</html>

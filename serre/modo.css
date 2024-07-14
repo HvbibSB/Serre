@@ -1,0 +1,135 @@
+/* Réinitialisation de la mise en page et styles de base */
+body, h1, h2 {
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('Serrre.jpg'); 
+    background-size: cover;
+    /*background-color: #81C784;  Vert clair agricole pour la page d'authentification */
+    color: #424242; /* Gris foncé pour le texte */
+}
+
+header {
+    background-color: #4CAF50; /* Vert foncé pour le header */
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+#rcorners2 {
+    background-color: #FFFFFF; /* Fond blanc pour le conteneur */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    margin: 20px auto; /* Centrer le conteneur */
+    width: 25%; /* Largeur du conteneur ajustable */
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #4CAF50; /* Bordure verte foncée */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Vert foncé pour le bouton */
+    color: white;
+    padding: 15px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45A049; /* Légère variation de couleur au survol */
+}
+
+
+/* version bleu
+
+/* Réinitialisation de la mise en page et styles de base 
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4c6caf; /* Vert clair agricole pour la page d'authentification 
+    color: #424242; /* Gris foncé pour le texte 
+}
+
+header {
+    background-color: #168eef; /* Vert foncé pour le header 
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+#rcorners2 {
+    background-color: #FFFFFF; /* Fond blanc pour le conteneur 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère 
+    margin: 20px auto; /* Centrer le conteneur 
+    width: 25%; /* Largeur du conteneur ajustable 
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #4c6caf; /* Bordure verte foncée 
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4ca7af; /* Vert foncé pour le bouton 
+    color: white;
+    padding: 15px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #a04574; /* Légère variation de couleur au survol 
+}
+
+
+
+*/

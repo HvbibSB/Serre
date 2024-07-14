@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Serrre.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    /*background-size: 1000px 500px:*/ 
+    background-color: #81C784;  /* Vert clair agricole */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent */
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fond légèrement transparent */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre */
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.section p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.admin {
+    background-color: #ffc107; /* Couleur jaune */
+}
+
+.status {
+    background-color: #28a745; /* Couleur verte */
+}
