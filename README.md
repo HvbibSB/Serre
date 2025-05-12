@@ -1,3 +1,5 @@
+# Serre Horticoles
+
 Une serre horticole est une structure fermée et contrôlée utilisée pour la culture de plantes dans des conditions optimales, indépendamment des conditions climatiques extérieures. 
 
 Elle est construite à partir de matériaux transparents comme le verre ou le polycarbonate et peut être chauffée, ventilée, et équipée de systèmes d'irrigation et d'éclairage artificiel pour réguler la température, l'humidité, et la lumière. 
@@ -18,46 +20,46 @@ Expression du besoin :
 
 Dans le cadre de cette étude, il conviendra donc de mettre en œuvre un système d’acquisition des différentes informations provenant des capteurs capable de :
 
-    • mesurer les différentes données climatiques
-    • stocker les données concernant ces mesures
-    • interpréter les résultats sous forme de courbe et de tableaux (pour des statistiques climatiques)
-    • afficher les résultats sur un pc local ou distant
-    • afficher les résultats sur une page web	
-    • piloter les ouvrants, les ventilateurs et le chauffage
+- mesurer les différentes données climatiques
+- stocker les données concernant ces mesures
+- interpréter les résultats sous forme de courbe et de tableaux (pour des statistiques climatiques)
+- afficher les résultats sur un pc local ou distant
+- afficher les résultats sur une page web
+- piloter les ouvrants, les ventilateurs et le chauffage
 
-    Répartitions des tâches
+## Répartitions des tâches
 
-IR1
+### IR1
 
 Configuration de la RaspberryPI et du Système d’acquisition
 
-    • Acquérir la température dans la serre
-    • Acquérir l’hygrométrie dans la serre
-    • Acquérir l’hygrométrie du sol
-    • Acquérir la vitesse du vent 
-    • Acquérir  la direction du vent
-    • Envoyer les mesures dans la Base de données
+- Acquérir la température dans la serre
+- Acquérir l’hygrométrie dans la serre
+- Acquérir l’hygrométrie du sol
+- Acquérir la vitesse du vent
+- Acquérir  la direction du vent
+- Envoyer les mesures dans la Base de données
 
-IR2
+### IR2
 
 Développement de la partie pilotage de la serre
 
-    • Mettre en œuvre les thermostats connectés
-    • Configurer la Box Max! EQ1
-    • Piloter les ouvrants de la serre en fonction de la température de la serre
-    • Piloter le chauffage de la serre en fonction de la température de la serre
-    • Piloter l’arrosage de la serre en fonction de l’hygrométrie dans la serre
-    • Concevoir les paramétrages de pilotage de la serre dans la Base de données
+- Mettre en œuvre les thermostats connectés
+- Configurer la Box Max! EQ1
+- Piloter les ouvrants de la serre en fonction de la température de la serre
+- Piloter le chauffage de la serre en fonction de la température de la serre
+- Piloter l’arrosage de la serre en fonction de l’hygrométrie dans la serre
+- Concevoir les paramétrages de pilotage de la serre dans la Base de données
 
-IR3 Mze Habib
+### IR3 Mze Habib
 
 Développement de l’interface de la gestion de la serre et Conception de la Base de données
 
-    • Concevoir la base de données Serre
-    • Concevoir le site web Serre permettant de :
-        ◦ Configurer le pilotage de la serre
-        ◦ Définir les règles de pilotage de la Serre.
-    • Animer l’équipe de projet
+- Concevoir la base de données Serre
+- Concevoir le site web Serre permettant de :
+  - Configurer le pilotage de la serre
+  - Définir les règles de pilotage de la Serre.
+- Animer l’équipe de projet
 
     Le rôle de l’IR3 dans ce projet est essentiel pour assurer l'interface utilisateur et l'interaction fluide avec le système de gestion de la serre intelligente. 
 
